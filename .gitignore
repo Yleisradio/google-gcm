@@ -1,0 +1,6 @@
+build/
+dist/
+gcm-demo.iml
+.gradle/
+.idea/
+local.properties
