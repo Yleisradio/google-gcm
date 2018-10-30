@@ -3,4 +3,5 @@ dist/
 gcm-demo.iml
 .gradle/
 .idea/
+client-libraries/java/rest-client/target/
 local.properties
