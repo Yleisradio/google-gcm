@@ -13,7 +13,7 @@ Previous build definitions (driver shell script ````./build.sh```` and Ant build
 Build rest client and publish build artifact to Yle Maven repository:
 
     cd client-libraries/java/rest-client
-    mvn deploy
+    mvn compile; mvn package; mvn deploy
 
 Before this, update project version to the ```client-libraries/java/rest-client/pom.xml```.
     
