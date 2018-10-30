@@ -5,6 +5,20 @@ send endpoint at Finnish Brodcasting Company (Yle). Firebase support is implemen
 and merged into Google repo's master but build artifact is not available. Build artifact
 will be shared through Yle's Maven repository: https://github.com/Yleisradio/wiki/wiki/Maven-repository
 
+Previous build definitions (driver shell script ````./build.sh```` and Ant build definition
+```client-libraries/java/rest-client/build.xml```) are removed and deploy is now done simply by Maven.
+
+## How to deploy new lib version?
+
+Build rest client and publish build artifact to Yle Maven repository:
+
+    cd client-libraries/java/rest-client
+    mvn deploy
+
+Before this, update project version to the build.xml and pom.xml.
+    
+---
+
 Google Cloud Messaging (GCM) is a service that lets developers send data from
 servers to users' devices, and receive messages from devices on the same
 connection. The service provides a simple, lightweight mechanism that servers
