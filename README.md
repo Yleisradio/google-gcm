@@ -15,7 +15,7 @@ Build rest client and publish build artifact to Yle Maven repository:
     cd client-libraries/java/rest-client
     mvn deploy
 
-Before this, update project version to the build.xml and pom.xml.
+Before this, update project version to the ```client-libraries/java/rest-client/pom.xml```.
     
 ---
 
