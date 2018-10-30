@@ -5,3 +5,4 @@ gcm-demo.iml
 .idea/
 client-libraries/java/rest-client/target/
 local.properties
+**/.DS_Store
